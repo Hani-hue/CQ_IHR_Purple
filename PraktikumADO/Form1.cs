@@ -21,6 +21,11 @@ namespace PraktikumADO
             InitializeComponent();
         }
 
+        private void Koneksi()
+        {
+            conn = new SqlConnection("Data Source=HANI1104\\HANIW; Initial Catalog=DBAkademikADO; Integrated Security=True");
+        }
+
         private void textBox1_TextChanged(object sender, EventArgs e)
         {
 
