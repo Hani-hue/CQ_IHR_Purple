@@ -26,7 +26,7 @@ namespace PraktikumADO
             conn = new SqlConnection("Data Source=HANI1104\\HANIW; Initial Catalog=DBAkademikADO; Integrated Security=True");
         }
 
-        private void textBox1_TextChanged(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
             try
             {
@@ -40,5 +40,13 @@ namespace PraktikumADO
                 MessageBox.Show(ex.Message);
             }
         }
+
+
+        private void textBox1_TextChanged(object sender, EventArgs e)
+        {
+            
+        }
+
+
     }
 }
