@@ -61,6 +61,7 @@
             this.button1.TabIndex = 2;
             this.button1.Text = "Connect";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -70,6 +71,7 @@
             this.button2.TabIndex = 3;
             this.button2.Text = "Hitung Mhs";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // button3
             // 
@@ -79,6 +81,7 @@
             this.button3.TabIndex = 4;
             this.button3.Text = "Hitung MK";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // button4
             // 
@@ -88,6 +91,7 @@
             this.button4.TabIndex = 5;
             this.button4.Text = "Update";
             this.button4.UseVisualStyleBackColor = true;
+            this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
             // Form1
             // 
